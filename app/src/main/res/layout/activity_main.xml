@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18sp"
+
+    android:background="@drawable/space2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="273dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/cosmo"></ImageView>
+
+    <TextView
+        android:id="@+id/ast"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#A3613325"
+        android:text=" Write the Astronaut "
+        android:textAlignment="center"
+        android:textColor="#0BF4D1"
+        android:textSize="26dp">
+
+    </TextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b1"
+        android:layout_width="180sp"
+        android:layout_height="80sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#E82E3B68"
+        android:text="Write the ast"
+        android:textAlignment="center"
+        app:backgroundTint="#FFFFFF"
+        app:cornerRadius="90sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:padding="20sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#D5435144"
+        android:visibility="invisible"
+        android:backgroundTint="#9750E400"></EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b2"
+        android:layout_width="180sp"
+        android:layout_height="80sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:text="Send to ast"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:backgroundTint="#ED00D9FF"
+        app:cornerRadius="20sp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/teletele"
+        app:backgroundTint="@android:color/transparent"
+        app:cornerRadius="90sp"
+        android:visibility="invisible"
+        android:scaleType="fitCenter"
+        />
+
+</LinearLayout>
+
+
